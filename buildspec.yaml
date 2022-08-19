@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - aws cloudformation validate-template --template-body file:///C:\Users\005213\Downloads//Ec2.yaml
+      - aws cloudformation validate-template --template-body file://Ec2.yaml
       - aws cloudformation package --template-file /path_to_template/Ec2.yaml --s3-bucket  nareshravs --output-template-file Ec2.yaml  
   post_build:
     commands:
