@@ -18,4 +18,3 @@ phases:
 artifacts:
   files:
     - target/buildartifact.zip
-    aws cloudformation validate-template --template-body file:///C:\Users\005213\Downloads//Ec2.yaml
